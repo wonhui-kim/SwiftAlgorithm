@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7CE5AF3298A4309007846A5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CE5AF2298A4309007846A5 /* main.swift */; };
+		A76960FC298F8AC1007D93C8 /* 지도자동구축.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76960FB298F8AC1007D93C8 /* 지도자동구축.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A76960F7298F89A8007D93C8 /* 8단변속기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "8단변속기.swift"; sourceTree = "<group>"; };
+		A76960FB298F8AC1007D93C8 /* 지도자동구축.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "지도자동구축.swift"; sourceTree = "<group>"; };
 		A7CE5AEF298A4309007846A5 /* SwiftAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7CE5AF2298A4309007846A5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A7CE5AF2298A4309007846A5 /* 기초문법.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "기초문법.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A76960F6298F899B007D93C8 /* 8단변속기 */ = {
+			isa = PBXGroup;
+			children = (
+				A76960F7298F89A8007D93C8 /* 8단변속기.swift */,
+			);
+			name = "8단변속기";
+			path = "8단변속기";
+			sourceTree = "<group>";
+		};
+		A76960F9298F8AAD007D93C8 /* 기초문법 */ = {
+			isa = PBXGroup;
+			children = (
+				A7CE5AF2298A4309007846A5 /* 기초문법.swift */,
+			);
+			name = "기초문법";
+			path = "기초문법";
+			sourceTree = "<group>";
+		};
+		A76960FA298F8AB6007D93C8 /* 지도자동구축 */ = {
+			isa = PBXGroup;
+			children = (
+				A76960FB298F8AC1007D93C8 /* 지도자동구축.swift */,
+			);
+			name = "지도자동구축";
+			path = "지도자동구축";
+			sourceTree = "<group>";
+		};
 		A7CE5AE6298A4309007846A5 = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +86,9 @@
 		A7CE5AF1298A4309007846A5 /* SwiftAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
-				A7CE5AF2298A4309007846A5 /* main.swift */,
+				A76960FA298F8AB6007D93C8 /* 지도자동구축 */,
+				A76960F9298F8AAD007D93C8 /* 기초문법 */,
+				A76960F6298F899B007D93C8 /* 8단변속기 */,
 			);
 			path = SwiftAlgorithm;
 			sourceTree = "<group>";
@@ -94,6 +125,7 @@
 				TargetAttributes = {
 					A7CE5AEE298A4309007846A5 = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 					};
 				};
 			};
@@ -120,7 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7CE5AF3298A4309007846A5 /* main.swift in Sources */,
+				A76960FC298F8AC1007D93C8 /* 지도자동구축.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,10 +275,17 @@
 		A7CE5AF7298A4309007846A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S45U2Z8NHP;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -254,9 +293,15 @@
 		A7CE5AF8298A4309007846A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S45U2Z8NHP;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
