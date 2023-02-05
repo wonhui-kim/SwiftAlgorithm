@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A76960FF298F8EB4007D93C8 /* GBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76960FE298F8EB4007D93C8 /* GBC.swift */; };
+		A7696102298F9459007D93C8 /* 바이러스.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7696101298F9459007D93C8 /* 바이러스.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,7 @@
 		A76960F7298F89A8007D93C8 /* 8단변속기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "8단변속기.swift"; sourceTree = "<group>"; };
 		A76960FB298F8AC1007D93C8 /* 지도자동구축.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "지도자동구축.swift"; sourceTree = "<group>"; };
 		A76960FE298F8EB4007D93C8 /* GBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBC.swift; sourceTree = "<group>"; };
+		A7696101298F9459007D93C8 /* 바이러스.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "바이러스.swift"; sourceTree = "<group>"; };
 		A7CE5AEF298A4309007846A5 /* SwiftAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7CE5AF2298A4309007846A5 /* 기초문법.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "기초문법.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +77,15 @@
 			path = GBC;
 			sourceTree = "<group>";
 		};
+		A7696100298F9450007D93C8 /* 바이러스 */ = {
+			isa = PBXGroup;
+			children = (
+				A7696101298F9459007D93C8 /* 바이러스.swift */,
+			);
+			name = "바이러스";
+			path = "바이러스";
+			sourceTree = "<group>";
+		};
 		A7CE5AE6298A4309007846A5 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +105,7 @@
 		A7CE5AF1298A4309007846A5 /* SwiftAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				A7696100298F9450007D93C8 /* 바이러스 */,
 				A76960FD298F8EAA007D93C8 /* GBC */,
 				A76960FA298F8AB6007D93C8 /* 지도자동구축 */,
 				A76960F9298F8AAD007D93C8 /* 기초문법 */,
@@ -162,7 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A76960FF298F8EB4007D93C8 /* GBC.swift in Sources */,
+				A7696102298F9459007D93C8 /* 바이러스.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
