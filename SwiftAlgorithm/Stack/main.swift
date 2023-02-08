@@ -8,25 +8,25 @@
 import Foundation
 
 struct Stack<T> {
-    var stack = [T]()
+    private var stack = [T]()
     
-    mutating func push(_ element: T) {
+    public mutating func push(_ element: T) {
         stack.append(element)
     }
     
-    mutating func pop() -> T? {
-        return !stack.isEmpty ? stack.popLast() : nil
+    public mutating func pop() -> T? {
+        return isEmpty ? nil : stack.popLast()
     }
     
-    func peek() -> T? {
-        return !stack.isEmpty ? stack.last : nil
+    public func peek() -> T? {
+        return isEmpty ? nil : stack.last
     }
     
-    var count: Int {
-        stack.count
+    public var count: Int {
+        return stack.count
     }
     
-    var isEmpty: Bool {
-        stack.isEmpty
+    public var isEmpty: Bool {
+        return stack.isEmpty
     }
 }
