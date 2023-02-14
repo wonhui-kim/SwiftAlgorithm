@@ -6,10 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		A7A90F342995FA1600B447E9 /* 15651.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A90F332995FA1600B447E9 /* 15651.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		A7CE5AED298A4309007846A5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -41,6 +37,7 @@
 		A7A90F2D2995EAC100B447E9 /* 15649.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15649.swift; sourceTree = "<group>"; };
 		A7A90F302995F3CD00B447E9 /* 15650.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15650.swift; sourceTree = "<group>"; };
 		A7A90F332995FA1600B447E9 /* 15651.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15651.swift; sourceTree = "<group>"; };
+		A7A90F36299A111600B447E9 /* 플레이페어암호.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "플레이페어암호.swift"; sourceTree = "<group>"; };
 		A7CE5AEF298A4309007846A5 /* SwiftAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7CE5AF2298A4309007846A5 /* 기초문법.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "기초문법.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -222,6 +219,15 @@
 			path = "N과M(3)15651";
 			sourceTree = "<group>";
 		};
+		A7A90F35299A110200B447E9 /* 플레이페어암호 */ = {
+			isa = PBXGroup;
+			children = (
+				A7A90F36299A111600B447E9 /* 플레이페어암호.swift */,
+			);
+			name = "플레이페어암호";
+			path = "플레이페어암호";
+			sourceTree = "<group>";
+		};
 		A7CE5AE6298A4309007846A5 = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +247,7 @@
 		A7CE5AF1298A4309007846A5 /* SwiftAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				A7A90F35299A110200B447E9 /* 플레이페어암호 */,
 				A7A90F322995FA0000B447E9 /* N과M(3)15651 */,
 				A7A90F2F2995F3B200B447E9 /* N과M(2)15650 */,
 				A7A90F2C2995EAAB00B447E9 /* N과M(1)15649 */,
@@ -323,7 +330,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7A90F342995FA1600B447E9 /* 15651.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
