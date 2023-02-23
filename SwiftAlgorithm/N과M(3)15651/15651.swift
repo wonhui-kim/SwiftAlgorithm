@@ -15,15 +15,19 @@ let N = NM[0]
 let M = NM[1]
 
 var answer: [Int] = Array(repeating: -1, count: M)
+var result = [[Int]]()
 
 dfs(depth: 0)
+result.forEach { arr in
+    arr.forEach { element in
+        print(element, terminator: " ")
+    }
+    print()
+}
 
 func dfs(depth: Int) {
     if depth == M {
-        answer.forEach { element in
-            print(element, terminator: " ")
-        }
-        print()
+        result.append(answer)
         return
     }
     

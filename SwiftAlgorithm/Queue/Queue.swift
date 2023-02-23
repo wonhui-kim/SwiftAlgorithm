@@ -16,7 +16,7 @@ struct Queue<T> {
     }
 
     public mutating func dequeue() -> T? {
-        guard head <= queue.count, let element = queue[head] else {
+        guard isEmpty, let element = queue[head] else {
             return nil
         }
         queue[head] = nil
@@ -35,10 +35,10 @@ struct Queue<T> {
     }
 
     public var count: Int {
-        return queue.count
+        return queue.count - head
     }
 
     public var isEmpty: Bool {
-        return queue.isEmpty
+        return head >= queue.count ? true : false
     }
 }
