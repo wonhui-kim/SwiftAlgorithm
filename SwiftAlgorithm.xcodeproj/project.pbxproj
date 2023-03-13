@@ -58,6 +58,7 @@
 		A7E1607D29BAC87D0031994D /* 10610.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10610.swift; sourceTree = "<group>"; };
 		A7E1608029BB72240031994D /* 큰수만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "큰수만들기.swift"; sourceTree = "<group>"; };
 		A7E1608329BDA85F0031994D /* 14467.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14467.swift; sourceTree = "<group>"; };
+		A7E1608829BEB9CF0031994D /* 1931.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1931.swift; sourceTree = "<group>"; };
 		A7FDA09F29A6EA30001D8EE4 /* 15989.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15989.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -374,6 +375,7 @@
 		A7CE5AF1298A4309007846A5 /* SwiftAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				A7E1608729BEB9BE0031994D /* 회의실배정_1931 */,
 				A7E1608229BDA84F0031994D /* 소가길을건너간이유1_14467 */,
 				A7E1607F29BB72180031994D /* 큰수만들기 */,
 				A7E1607C29BAC8490031994D /* 30_10610 */,
@@ -450,6 +452,15 @@
 			);
 			name = "소가길을건너간이유1_14467";
 			path = "소가길을건너간이유1_14467";
+			sourceTree = "<group>";
+		};
+		A7E1608729BEB9BE0031994D /* 회의실배정_1931 */ = {
+			isa = PBXGroup;
+			children = (
+				A7E1608829BEB9CF0031994D /* 1931.swift */,
+			);
+			name = "회의실배정_1931";
+			path = "회의실_1931";
 			sourceTree = "<group>";
 		};
 		A7FDA09E29A6EA1B001D8EE4 /* 1,2,3더하기4_15989 */ = {
