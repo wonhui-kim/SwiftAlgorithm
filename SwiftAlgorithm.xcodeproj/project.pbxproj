@@ -59,7 +59,8 @@
 		A7A90F302995F3CD00B447E9 /* 15650.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15650.swift; sourceTree = "<group>"; };
 		A7A90F332995FA1600B447E9 /* 15651.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15651.swift; sourceTree = "<group>"; };
 		A7A90F36299A111600B447E9 /* 플레이페어암호.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "플레이페어암호.swift"; sourceTree = "<group>"; };
-		A7BF165029C7E954004BEF66 /* 2210.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2210.swift; sourceTree = "<group>"; };
+		A7BF165029C7E954004BEF66 /* 2210_다시풀기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2210_다시풀기.swift"; sourceTree = "<group>"; };
+		A7BF165329C92F32004BEF66 /* 3184.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3184.swift; sourceTree = "<group>"; };
 		A7CE5AEF298A4309007846A5 /* SwiftAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7CE5AF2298A4309007846A5 /* 기초문법.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "기초문법.swift"; sourceTree = "<group>"; };
 		A7D7D6FB29A068910018996C /* 업무관리.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "업무관리.swift"; sourceTree = "<group>"; };
@@ -450,10 +451,19 @@
 		A7BF164F29C7E948004BEF66 /* 숫자판점프_2210 */ = {
 			isa = PBXGroup;
 			children = (
-				A7BF165029C7E954004BEF66 /* 2210.swift */,
+				A7BF165029C7E954004BEF66 /* 2210_다시풀기.swift */,
 			);
 			name = "숫자판점프_2210";
 			path = "숫자판점프_2210";
+			sourceTree = "<group>";
+		};
+		A7BF165229C92F1F004BEF66 /* 양_3184 */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF165329C92F32004BEF66 /* 3184.swift */,
+			);
+			name = "양_3184";
+			path = "양_3184";
 			sourceTree = "<group>";
 		};
 		A7CE5AE6298A4309007846A5 = {
@@ -475,6 +485,7 @@
 		A7CE5AF1298A4309007846A5 /* SwiftAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				A7BF165229C92F1F004BEF66 /* 양_3184 */,
 				A7BF164F29C7E948004BEF66 /* 숫자판점프_2210 */,
 				A762B7D829C58B7F00955619 /* 섬의개수_4963 */,
 				A762B7D429C5804700955619 /* 전투_1303 */,
