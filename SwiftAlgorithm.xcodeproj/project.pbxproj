@@ -52,6 +52,8 @@
 		A7A063DB29CD32260013FF20 /* 11004.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11004.swift; sourceTree = "<group>"; };
 		A7A063DF29CD3FB40013FF20 /* 2776.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2776.swift; sourceTree = "<group>"; };
 		A7A063E429D197420013FF20 /* 10825.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10825.swift; sourceTree = "<group>"; };
+		A7A063E729D1A9820013FF20 /* 18310.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18310.swift; sourceTree = "<group>"; };
+		A7A063EA29D291160013FF20 /* 12015.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12015.swift; sourceTree = "<group>"; };
 		A7A21A1129C9512D000596E8 /* 14716.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14716.swift; sourceTree = "<group>"; };
 		A7A21A1429CA837C000596E8 /* 1743.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1743.swift; sourceTree = "<group>"; };
 		A7A21A1729CA8C93000596E8 /* 10026.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10026.swift; sourceTree = "<group>"; };
@@ -379,6 +381,24 @@
 			path = "국영수_10825";
 			sourceTree = "<group>";
 		};
+		A7A063E629D1A9710013FF20 /* 안테나_18310 */ = {
+			isa = PBXGroup;
+			children = (
+				A7A063E729D1A9820013FF20 /* 18310.swift */,
+			);
+			name = "안테나_18310";
+			path = "안테나_18310";
+			sourceTree = "<group>";
+		};
+		A7A063E929D291020013FF20 /* 가장큰증가하는수열2_12015 */ = {
+			isa = PBXGroup;
+			children = (
+				A7A063EA29D291160013FF20 /* 12015.swift */,
+			);
+			name = "가장큰증가하는수열2_12015";
+			path = "가장큰증가하는수열2_12015";
+			sourceTree = "<group>";
+		};
 		A7A21A1029C95118000596E8 /* 현수막_14716 */ = {
 			isa = PBXGroup;
 			children = (
@@ -524,6 +544,8 @@
 		A7CE5AF1298A4309007846A5 /* SwiftAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				A7A063E929D291020013FF20 /* 가장큰증가하는수열2_12015 */,
+				A7A063E629D1A9710013FF20 /* 안테나_18310 */,
 				A7A063E329D197350013FF20 /* 국영수_10825 */,
 				A7A063DD29CD3FA40013FF20 /* 암기왕_2776 */,
 				A7A063DA29CD32190013FF20 /* K번째수_11004 */,
