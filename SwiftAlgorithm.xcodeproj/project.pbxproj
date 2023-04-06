@@ -86,6 +86,7 @@
 		A7E1608329BDA85F0031994D /* 14467.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14467.swift; sourceTree = "<group>"; };
 		A7E1608829BEB9CF0031994D /* 1931.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1931.swift; sourceTree = "<group>"; };
 		A7F7EB8529DE4EEC005C4DCC /* 4673.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4673.swift; sourceTree = "<group>"; };
+		A7F7EB8829DE56A4005C4DCC /* 2579.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2579.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -626,6 +627,7 @@
 		A7CE5AF1298A4309007846A5 /* SwiftAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				A7F7EB8729DE5699005C4DCC /* 계단오르기_2579 */,
 				A7F7EB8429DE4EDC005C4DCC /* 셀프넘버_4673 */,
 				A73E8CCE29DD177800803DEE /* 반도체설계_2352 */,
 				A73E8CCB29DD051A00803DEE /* IOIOI_5525 */,
@@ -746,6 +748,15 @@
 			);
 			name = "셀프넘버_4673";
 			path = "셀프넘버_4673";
+			sourceTree = "<group>";
+		};
+		A7F7EB8729DE5699005C4DCC /* 계단오르기_2579 */ = {
+			isa = PBXGroup;
+			children = (
+				A7F7EB8829DE56A4005C4DCC /* 2579.swift */,
+			);
+			name = "계단오르기_2579";
+			path = "계단오르기_2579";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
