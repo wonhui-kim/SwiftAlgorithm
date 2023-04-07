@@ -26,6 +26,7 @@
 		A71CE26D29DF9B5C00097AF9 /* 11656.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11656.swift; sourceTree = "<group>"; };
 		A71CE27129DFA24400097AF9 /* 2748.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2748.swift; sourceTree = "<group>"; };
 		A71CE27429DFC2EC00097AF9 /* 11055.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11055.swift; sourceTree = "<group>"; };
+		A71CE27729DFC8BF00097AF9 /* 1912.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1912.swift; sourceTree = "<group>"; };
 		A72360B329B84C2300DA32BA /* 체육복.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "체육복.swift"; sourceTree = "<group>"; };
 		A7299BFF29D66D00002A2F5F /* 14425.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14425.swift; sourceTree = "<group>"; };
 		A7299C0229D66E38002A2F5F /* 7795.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7795.swift; sourceTree = "<group>"; };
@@ -165,6 +166,15 @@
 			);
 			name = "가장큰증가하는부분수열_11055";
 			path = "가장큰증가하는부분수열_11055";
+			sourceTree = "<group>";
+		};
+		A71CE27629DFC8B400097AF9 /* 연속합_1912 */ = {
+			isa = PBXGroup;
+			children = (
+				A71CE27729DFC8BF00097AF9 /* 1912.swift */,
+			);
+			name = "연속합_1912";
+			path = "연속합_1912";
 			sourceTree = "<group>";
 		};
 		A72360B229B84C1C00DA32BA /* 체육복 */ = {
@@ -658,6 +668,7 @@
 		A7CE5AF1298A4309007846A5 /* SwiftAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				A71CE27629DFC8B400097AF9 /* 연속합_1912 */,
 				A71CE27329DFC2DE00097AF9 /* 가장큰증가하는부분수열_11055 */,
 				A71CE27029DFA23500097AF9 /* 피보나치수2_2748 */,
 				A71CE26C29DF9B4B00097AF9 /* 접미사배열_11656 */,
