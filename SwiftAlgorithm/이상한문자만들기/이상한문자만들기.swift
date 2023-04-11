@@ -1,28 +1,33 @@
-//
-//  이상한문자만들기.swift
-//  SwiftAlgorithm
-//
-//  Created by kim-wonhui on 2023/04/11.
-//
-
-import Foundation
-
 func solution(_ s:String) -> String {
-    var arr = s.map { String($0) }
+    let alphabet = "abcdefghijklmnopqrstuvwxyz"
+    let lowerAlphabet = Array(alphabet)
+    let upperAlphabet = Array(alphabet.uppercased())
+    var arr = Array(s)
     
+    var result = [String]()
+    var index = 0
     for i in 0..<arr.count {
-        if arr[i] == "" {
+        if arr[i] == " " {
+            index = 0
+            result.append(String(arr[i]))
             continue
         }
         
-        if i%2 == 0 {
-            arr[i] = arr[i].uppercased()
-        } else {
-            arr[i] = arr[i].lowercased()
+        if !lowerAlphabet.contains(arr[i]) && !upperAlphabet.contains(arr[i]) {
+            result.append(String(arr[i]))
+            index += 1
+            continue
         }
+        
+        if index%2 == 0 {
+            result.append(String(arr[i]).uppercased())
+        } else {
+            result.append(String(arr[i]).lowercased())
+        }
+        index += 1
     }
     
-    return arr.joined()
+    return result.joined()
 }
 
 print(solution("try hello world"))
