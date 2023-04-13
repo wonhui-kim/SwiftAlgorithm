@@ -8,19 +8,5 @@
 import Foundation
 
 func solution(_ s:String) -> Bool {
-    
-    let arr = Array(s)
-    if arr.count != 4 && arr.count != 6 {
-        return false
-    }
-    
-    let num: [Character] = ["1","2","3","4","5","6","7","8","9","0"]
-    
-    for i in arr {
-        if !num.contains(i) {
-            return false
-        }
-    }
-    
-    return true
+    return Int(s) != nil && s.count == 4 || s.count == 6 ? true : false
 }
