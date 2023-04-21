@@ -112,6 +112,7 @@
 		A7D7D6FB29A068910018996C /* 업무관리.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "업무관리.swift"; sourceTree = "<group>"; };
 		A7D7D6FD29A068A40018996C /* 자동완성.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "자동완성.swift"; sourceTree = "<group>"; };
 		A7D7D6FF29A068AD0018996C /* 공통명령처리.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "공통명령처리.swift"; sourceTree = "<group>"; };
+		A7D9FB8629F26B0D0088D6B8 /* 2740.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2740.swift; sourceTree = "<group>"; };
 		A7DF934A29EA1DA6004E1155 /* 9084.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9084.swift; sourceTree = "<group>"; };
 		A7E1607D29BAC87D0031994D /* 10610.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10610.swift; sourceTree = "<group>"; };
 		A7E1608029BB72240031994D /* 큰수만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "큰수만들기.swift"; sourceTree = "<group>"; };
@@ -902,6 +903,7 @@
 		A7CE5AF1298A4309007846A5 /* SwiftAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				A7D9FB8529F26B010088D6B8 /* 행렬제곱_2740 */,
 				A705534529F0E3C100BBF599 /* ATM_11399 */,
 				A705534229F0D5F400BBF599 /* 한수_1065 */,
 				A705533F29EFC50800BBF599 /* 약수구하기_2501 */,
@@ -1008,6 +1010,15 @@
 			);
 			name = "현대오토에버2023기출";
 			path = "현대오토에버2023기출";
+			sourceTree = "<group>";
+		};
+		A7D9FB8529F26B010088D6B8 /* 행렬제곱_2740 */ = {
+			isa = PBXGroup;
+			children = (
+				A7D9FB8629F26B0D0088D6B8 /* 2740.swift */,
+			);
+			name = "행렬제곱_2740";
+			path = "행렬제곱_2740";
 			sourceTree = "<group>";
 		};
 		A7DF934929EA1D92004E1155 /* 동전_9084 */ = {
