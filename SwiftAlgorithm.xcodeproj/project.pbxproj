@@ -10,6 +10,7 @@
 		A71ABA812A07D54100D3B2CC /* 11721.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71ABA802A07D54100D3B2CC /* 11721.swift */; };
 		A71ABA842A07DD6800D3B2CC /* 1764.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71ABA832A07DD6800D3B2CC /* 1764.swift */; };
 		A71ABA872A089A2200D3B2CC /* 3003.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71ABA862A089A2200D3B2CC /* 3003.swift */; };
+		A71ABA8A2A08C86200D3B2CC /* 10250.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71ABA892A08C86200D3B2CC /* 10250.swift */; };
 		A7E9FDB12A076F8100C79AF6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E9FDB02A076F8100C79AF6 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		A71ABA802A07D54100D3B2CC /* 11721.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11721.swift; sourceTree = "<group>"; };
 		A71ABA832A07DD6800D3B2CC /* 1764.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1764.swift; sourceTree = "<group>"; };
 		A71ABA862A089A2200D3B2CC /* 3003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3003.swift; sourceTree = "<group>"; };
+		A71ABA892A08C86200D3B2CC /* 10250.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10250.swift; sourceTree = "<group>"; };
 		A71C456929B9818600A2D242 /* 4796.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4796.swift; sourceTree = "<group>"; };
 		A71C456C29B9922B00A2D242 /* 1449.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1449.swift; sourceTree = "<group>"; };
 		A71CE26D29DF9B5C00097AF9 /* 11656.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11656.swift; sourceTree = "<group>"; };
@@ -220,6 +222,15 @@
 			);
 			name = "킹퀸룩비숍나이트폰_3003";
 			path = "킹퀸룩비숍나이트폰_3003";
+			sourceTree = "<group>";
+		};
+		A71ABA882A08C85600D3B2CC /* ACM호텔_10250 */ = {
+			isa = PBXGroup;
+			children = (
+				A71ABA892A08C86200D3B2CC /* 10250.swift */,
+			);
+			name = "ACM호텔_10250";
+			path = "ACM호텔_10250";
 			sourceTree = "<group>";
 		};
 		A71C456829B9817900A2D242 /* 캠핑_4796 */ = {
@@ -938,6 +949,7 @@
 		A7CE5AF1298A4309007846A5 /* SwiftAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				A71ABA882A08C85600D3B2CC /* ACM호텔_10250 */,
 				A71ABA852A089A1400D3B2CC /* 킹퀸룩비숍나이트폰_3003 */,
 				A71ABA822A07DD5A00D3B2CC /* 듣보잡_1764 */,
 				A71ABA7F2A07D52A00D3B2CC /* 열개씩끊어출력하기_11721 */,
@@ -1209,6 +1221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71ABA8A2A08C86200D3B2CC /* 10250.swift in Sources */,
 				A71ABA812A07D54100D3B2CC /* 11721.swift in Sources */,
 				A71ABA842A07DD6800D3B2CC /* 1764.swift in Sources */,
 				A7E9FDB12A076F8100C79AF6 /* main.swift in Sources */,
